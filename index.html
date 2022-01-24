@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+    <title>project 4</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div class="container-fluit border-bottom">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-between">
+                        <a class="logo" href="">
+                            <img class="img-fluid" src="data:image/png;base64,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" alt="">
+                        </a>
+                        <div id="main-menu">
+                            <ul class="d-flex justify-content-end">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Trending</a></li>
+                                <li>
+                                    <a href=""><div class="icon float-right"><i class="fas fa-bars"></i></div></a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wp-content">
+            <div class="wp-content-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="title-main col-md-12 text-center">Macke Your Day</div>
+                        <div class="title-phu text-center">Real people. Real videos</div>
+                    </div>
+                    <div class="menu-between">
+                        <div class="box">
+                            <a class="text-light bg-dark" href="">Download on the Appstore</a>
+                        </div>
+                        <div class="box">
+                            <a class="text-light bg-dark" href="">Download on the Appstore</a>
+                        </div>
+                        <div class="box">
+                            <a class="text-light bg-dark" href="">Download on the Appstore</a>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+            <div class="wp-content-bottom">
+                <div class="container-fluit">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="">
+                                <img src="img/product-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="">
+                                <img src="img/product-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="">
+                                <img src="img/product-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="">
+                                <img src="img/product-1.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <a href="">
+                <img class="logo img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegmz3r8Ya4OGr57AkzE-FJCD5a9igG05SIg&usqp=CAU" alt="">
+            </a>
+            <div class="menu-footer">
+                <div class="box">
+                    <a class="font-weight-bold" href="">Company</a>
+                    <a class="" href="">About</a>
+                </div>
+                <div class="box">
+                    <a href="">Company</a>
+                    <a href="">About</a>
+                </div>
+                <div class="box">
+                    <a href="">Company</a>
+                    <a href="">About</a>
+                </div>
+                <div class="box">
+                    <a href="">Company</a>
+                    <a href="">About</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+</body>
+
+</html>
