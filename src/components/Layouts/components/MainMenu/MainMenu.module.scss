@@ -1,0 +1,35 @@
+.container {
+    width: auto;
+    height: 467.09px;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.info {
+    width: 500px;
+    margin-top: 93px;
+    margin-left: 60px;
+    span {
+        color: #ffb400;
+    }
+    .desc {
+        padding: 20px 0;
+        color: #767676;
+    }
+    .btn-hire {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 154px;
+        height: 51px;
+        border: none;
+        outline: none;
+        background-color: #ffb400;
+        p {
+            padding: 10px;
+        }
+    }
+}
+.banner {
+    width: 325.72px;
+}

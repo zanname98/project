@@ -1,0 +1,163 @@
+.container {
+    --yello-color: #ffb400;
+
+    width: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1315px;
+}
+
+//Profile
+.profile {
+    padding: 50px 25px 40px 46px;
+    height: auto;
+    width: 220px;
+    text-align: center;
+    border-bottom: 1.5px solid #f0f0f6;
+    .profile-name {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .profile-desc {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .list-icon {
+        display: flex;
+        li {
+            color: var(--yello-color);
+            font-size: 24;
+            padding: 5px;
+            list-style-type: none;
+        }
+    }
+}
+
+.about {
+    height: 136px;
+    width: 220px;
+    margin-top: 20px;
+    border-bottom: 1.5px solid #f0f0f6;
+    border-bottom: 1.5px solid #f0f0f6;
+
+    p {
+        padding-right: 5px;
+        background-color: #ffb400;
+    }
+
+    .age {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+    .residence {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    .freelance {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 5px;
+    }
+    .adress {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 5px;
+        span {
+            margin-left: 10px;
+            font-size: 15px;
+        }
+    }
+}
+.langguages {
+    width: 220px;
+    padding-top: 20px;
+    height: 200px;
+    border-bottom: 1.5px solid #f0f0f6;
+    .df {
+        color: #767676;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .border {
+        height: 5px;
+        border: 0.6px solid #767676;
+        border-radius: 30px;
+    }
+    .progress-max {
+        width: 100%;
+        border: 3px solid #ffb400;
+        border-radius: 30px;
+    }
+    .progress-six {
+        width: 60%;
+        border: 3px solid #ffb400;
+        border-radius: 30px;
+    }
+    .progress-eight {
+        width: 80%;
+        border: 3px solid #ffb400;
+        border-radius: 30px;
+    }
+}
+.skill {
+    height: 236px;
+    width: 220px;
+    padding-top: 20px;
+    border-bottom: 1.5px solid #f0f0f6;
+    .df {
+        color: #767676;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .border {
+        height: 5px;
+        border: 0.6px solid #767676;
+        border-radius: 30px;
+    }
+    .progress-night {
+        width: 90%;
+        border: 3px solid #ffb400;
+        border-radius: 30px;
+    }
+}
+.extra-skill {
+    h2 {
+        margin-bottom: 20px;
+    }
+    height: 200px;
+    width: 220px;
+    padding-top: 20px;
+    border-bottom: 1.5px solid #f0f0f6;
+    .icon {
+        color: #ffb400;
+    }
+    .titile {
+        padding: 20px;
+        color: #767676;
+    }
+}
+
+.button-download {
+    width: 220px;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffb400;
+    border: none;
+    .download {
+        padding: 10px;
+        position: absolute;
+        right: 5px;
+        align-items: center;
+        transform: translateY(-20%);
+    }
+}

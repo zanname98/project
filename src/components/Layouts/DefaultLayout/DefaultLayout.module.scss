@@ -1,0 +1,32 @@
+.wrapper {
+    width: 1500px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left-menu {
+    flex: 1;
+    flex-basis: 305px;
+    margin-right: 20px;
+}
+.main-menu {
+    flex: 1;
+    flex-basis: 970px;
+    .container {
+        position: absolute;
+        top: 500px;
+        .content {
+            width: 1000px;
+            height: auto;
+            top: 605px;
+        }
+
+        .footer {
+            height: 60px;
+        }
+    }
+}
+.right-menu {
+    flex: 1;
+    flex-basis: 108px;
+}
