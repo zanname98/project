@@ -1,0 +1,43 @@
+.wrapper {
+    height: 1195px;
+}
+
+.title {
+    text-align: center;
+    p {
+        padding: 20px;
+        width: 400px;
+        margin: auto;
+        font-size: 15px;
+        line-height: 24px;
+        color: #767676;
+    }
+}
+.container {
+    .list-menu ul {
+        display: flex;
+        justify-content: center;
+        li {
+            padding: 15px;
+            margin: 10px;
+            font-size: 18px;
+            line-height: 123.6%;
+            color: #2b2b2b;
+            font-weight: 400;
+            &:hover {
+                color: #ffb400;
+            }
+        }
+    }
+    .card-item {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        .image-item {
+            padding: 2px;
+            &:hover {
+                border: 1px solid #333;
+            }
+        }
+    }
+}
