@@ -12,6 +12,11 @@ const images = {
     image8: require('~/assets/images/image-8.png'),
     image9: require('~/assets/images/image-9.png'),
     rectangle: require('~/assets/images/rectangle.png'),
+
+    //blog
+    image12: require('~/assets/images/image-12.png'),
+    image10: require('~/assets/images/image-10.png'),
+    image13: require('~/assets/images/image-13.png'),
 };
 
 export default images;

@@ -1,0 +1,28 @@
+.wrapper {
+    width: 970px;
+    height: 665px;
+}
+.title {
+    text-align: center;
+    p {
+        margin: auto;
+        width: 438px;
+        height: 68px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #767676;
+        padding: 10px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    .card-item {
+        width: 310px;
+        height: auto;
+        background-color: #fff;
+    }
+}
